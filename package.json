@@ -1,0 +1,14 @@
+{
+  "name": "web3-fortmatic-connector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/satpil/web3-react-fortmatic.git",
+  "author": "Mayuresh <kundermayuresh249@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/experimental": "^5.7.0",
+    "@ethersproject/providers": "^5.7.1",
+    "@web3-react/types": "8.0.20-beta.0",
+    "fortmatic": "^2.4.0"
+  }
+}
