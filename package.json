@@ -5,6 +5,11 @@
   "repository": "https://github.com/satpil/web3-react-fortmatic.git",
   "author": "Mayuresh <kundermayuresh249@gmail.com>",
   "license": "MIT",
+  "scripts": {
+		"prebuild": "rm -rf dist",
+		"build": "tsc",
+		"start": "tsc --watch"
+	},
   "dependencies": {
     "@ethersproject/experimental": "^5.7.0",
     "@ethersproject/providers": "^5.7.1",
