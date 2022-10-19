@@ -1,15 +1,15 @@
 {
   "name": "web3-fortmatic-connector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/satpil/web3-react-fortmatic.git",
   "author": "Mayuresh <kundermayuresh249@gmail.com>",
   "license": "MIT",
   "scripts": {
-		"prebuild": "rm -rf dist",
-		"build": "tsc",
-		"start": "tsc --watch"
-	},
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
   "dependencies": {
     "@ethersproject/experimental": "^5.7.0",
     "@ethersproject/providers": "^5.7.1",
